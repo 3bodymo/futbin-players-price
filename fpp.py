@@ -48,7 +48,7 @@ def player_info():
 		return player_list
 	
 def player_ID(player_info):
-	d = dict(); 
+	d = dict()
 	for i in range(len(player_info)):
 		player_id = player_info[i][0]
 		url = 'https://www.futbin.com/' + year + '/player/' + player_id
@@ -65,7 +65,7 @@ def player_ID(player_info):
 
 def player_price(d):
 	d_to_list = list(d.items())
-	d_price = dict(); 
+	d_price = dict()
 	for i in range(len(d_to_list)):
 		player_ID = d_to_list[i][1]
 		url = 'https://www.futbin.com/' + year + '/playerPrices?player=' + player_ID
