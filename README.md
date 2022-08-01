@@ -10,7 +10,7 @@ pip install -r requirements.txt
 ```
 
 ## How to use?
-* Let take Messi as our example.We will pass his name and 99 as a rating to our script as the following:
+* Let take Messi as our example. We will pass his name and 99 as a rating to our script as the following:
 ```
 python3 fpp.py messi 99
 ```
